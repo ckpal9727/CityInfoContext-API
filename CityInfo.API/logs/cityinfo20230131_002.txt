@@ -1,0 +1,57 @@
+2023-01-31 18:56:57.666 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-31 18:56:57.760 +05:30 [DBG] Hosting starting
+2023-01-31 18:56:57.852 +05:30 [DBG] Using development certificate: CN=localhost (Thumbprint: F38DC37A490242D54DA8D78ADD442377381518A0)
+2023-01-31 18:56:57.942 +05:30 [INF] Now listening on: https://localhost:7029
+2023-01-31 18:56:58.151 +05:30 [INF] Now listening on: http://localhost:5166
+2023-01-31 18:56:58.152 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-01-31 18:56:58.153 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-31 18:56:58.154 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-31 18:56:58.155 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-31 18:56:58.156 +05:30 [INF] Hosting environment: Development
+2023-01-31 18:56:58.157 +05:30 [INF] Content root path: C:\ASP.NET\CityInfo\CityInfo.API\
+2023-01-31 18:56:58.158 +05:30 [DBG] Hosting started
+2023-01-31 18:56:58.381 +05:30 [DBG] Connection id "0HMO3HRA3H89E" accepted.
+2023-01-31 18:56:58.382 +05:30 [DBG] Connection id "0HMO3HRA3H89F" accepted.
+2023-01-31 18:56:58.392 +05:30 [DBG] Connection id "0HMO3HRA3H89E" started.
+2023-01-31 18:56:58.399 +05:30 [DBG] Connection id "0HMO3HRA3H89F" started.
+2023-01-31 18:56:58.421 +05:30 [DBG] Connection id "0HMO3HRA3H89E" received FIN.
+2023-01-31 18:56:58.423 +05:30 [DBG] Connection id "0HMO3HRA3H89F" received FIN.
+2023-01-31 18:56:58.439 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-31 18:56:58.439 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-01-31 18:56:58.517 +05:30 [DBG] Connection id "0HMO3HRA3H89E" stopped.
+2023-01-31 18:56:58.524 +05:30 [DBG] Connection id "0HMO3HRA3H89F" stopped.
+2023-01-31 18:56:58.529 +05:30 [DBG] Connection id "0HMO3HRA3H89E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-31 18:56:58.529 +05:30 [DBG] Connection id "0HMO3HRA3H89F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-01-31 19:12:39.853 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-31 19:12:39.984 +05:30 [DBG] Hosting starting
+2023-01-31 19:12:40.171 +05:30 [DBG] Using development certificate: CN=localhost (Thumbprint: F38DC37A490242D54DA8D78ADD442377381518A0)
+2023-01-31 19:12:40.215 +05:30 [INF] Now listening on: https://localhost:7029
+2023-01-31 19:12:40.216 +05:30 [INF] Now listening on: http://localhost:5166
+2023-01-31 19:12:40.217 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-01-31 19:12:40.217 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-31 19:12:40.218 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-31 19:12:40.218 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-31 19:12:40.219 +05:30 [INF] Hosting environment: Development
+2023-01-31 19:12:40.220 +05:30 [INF] Content root path: C:\ASP.NET\CityInfo\CityInfo.API\
+2023-01-31 19:12:40.220 +05:30 [DBG] Hosting started
+2023-01-31 19:13:09.716 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-01-31 19:13:09.850 +05:30 [DBG] Hosting starting
+2023-01-31 19:13:10.013 +05:30 [DBG] Using development certificate: CN=localhost (Thumbprint: F38DC37A490242D54DA8D78ADD442377381518A0)
+2023-01-31 19:13:10.041 +05:30 [INF] Now listening on: https://localhost:7029
+2023-01-31 19:13:10.042 +05:30 [INF] Now listening on: http://localhost:5166
+2023-01-31 19:13:10.043 +05:30 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-01-31 19:13:10.043 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-01-31 19:13:10.044 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-01-31 19:13:10.045 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-31 19:13:10.046 +05:30 [INF] Hosting environment: Development
+2023-01-31 19:13:10.046 +05:30 [INF] Content root path: C:\ASP.NET\CityInfo\CityInfo.API\
+2023-01-31 19:13:10.047 +05:30 [DBG] Hosting started
